@@ -1,0 +1,32 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets & Model Weights
+shopping_queries_dataset/
+models/
+*.parquet
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Jupyter & IDE
+.ipynb_checkpoints
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+*.swp
+*.swo
